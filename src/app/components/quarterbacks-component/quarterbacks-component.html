@@ -1,0 +1,17 @@
+<p-dataTable [value]="stats" rowGroupMode="subheader" groupField="player_id" expandableRowGroups="true"
+        [sortableRowGroup]="false">
+    <p-header>2016 NFL Weekly Quarterback Statistics</p-header>
+    <ng-template pTemplate="rowgroupheader" let-rowData>{{rowData['last_name']}}, {{rowData['first_name']}}</ng-template>
+    <p-column field="week" header="Week"></p-column>
+    <p-column field="completions" header="Completions"></p-column>
+    <p-column field="attempts" header="Attempts"></p-column>
+    <p-column field="qbr" header="Rating">
+      <ng-template let-col let-row="rowData" pTemplate="body">
+        <!--{{calculatePasserRating(col.completions, col.attempts)}} %-->
+        {{calculatePasserRating(row['completions'], row['attempts'], row['yards'], row['touchdowns'], row['interceptions']) | number : '.2-2'}}
+      </ng-template>
+    </p-column>
+    <p-column field="yards" header="Total Passing Yards"></p-column>
+    <p-column field="touchdowns" header="TDs"></p-column>
+    <p-column field="interceptions" header="Interceptions"></p-column>
+</p-dataTable>

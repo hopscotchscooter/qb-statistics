@@ -1,0 +1,334 @@
+{
+  "statistics": [
+    {
+      "yards": 406,
+      "week": 5,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 28,
+      "attempts": 40
+    },
+    {
+      "yards": 376,
+      "week": 6,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 29,
+      "attempts": 35
+    },
+    {
+      "yards": 222,
+      "week": 7,
+      "touchdowns": 2,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 19,
+      "attempts": 26
+    },
+    {
+      "yards": 315,
+      "week": 8,
+      "touchdowns": 4,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 22,
+      "attempts": 33
+    },
+    {
+      "yards": 316,
+      "week": 10,
+      "touchdowns": 0,
+      "player_id": 698,
+      "interceptions": 1,
+      "completions": 23,
+      "attempts": 32
+    },
+    {
+      "yards": 280,
+      "week": 11,
+      "touchdowns": 4,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 24,
+      "attempts": 40
+    },
+    {
+      "yards": 286,
+      "week": 12,
+      "touchdowns": 1,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 30,
+      "attempts": 50
+    },
+    {
+      "yards": 269,
+      "week": 13,
+      "touchdowns": 1,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 33,
+      "attempts": 46
+    },
+    {
+      "yards": 406,
+      "week": 14,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 1,
+      "completions": 25,
+      "attempts": 38
+    },
+    {
+      "yards": 188,
+      "week": 15,
+      "touchdowns": 0,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 16,
+      "attempts": 32
+    },
+    {
+      "yards": 214,
+      "week": 16,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 17,
+      "attempts": 27
+    },
+    {
+      "yards": 276,
+      "week": 17,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 25,
+      "attempts": 33
+    },
+    {
+      "yards": 287,
+      "week": 19,
+      "touchdowns": 2,
+      "player_id": 698,
+      "interceptions": 2,
+      "completions": 18,
+      "attempts": 38
+    },
+    {
+      "yards": 384,
+      "week": 20,
+      "touchdowns": 3,
+      "player_id": 698,
+      "interceptions": 0,
+      "completions": 32,
+      "attempts": 42
+    },
+    {
+      "yards": 466,
+      "week": 21,
+      "touchdowns": 2,
+      "player_id": 698,
+      "interceptions": 1,
+      "completions": 43,
+      "attempts": 62
+    },
+    {
+      "yards": 334,
+      "week": 1,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 27,
+      "attempts": 39
+    },
+    {
+      "yards": 396,
+      "week": 2,
+      "touchdowns": 3,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 26,
+      "attempts": 34
+    },
+    {
+      "yards": 240,
+      "week": 3,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 20,
+      "attempts": 30
+    },
+    {
+      "yards": 503,
+      "week": 4,
+      "touchdowns": 4,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 28,
+      "attempts": 37
+    },
+    {
+      "yards": 267,
+      "week": 5,
+      "touchdowns": 1,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 15,
+      "attempts": 28
+    },
+    {
+      "yards": 335,
+      "week": 6,
+      "touchdowns": 3,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 27,
+      "attempts": 42
+    },
+    {
+      "yards": 273,
+      "week": 7,
+      "touchdowns": 1,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 22,
+      "attempts": 34
+    },
+    {
+      "yards": 288,
+      "week": 8,
+      "touchdowns": 3,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 28,
+      "attempts": 35
+    },
+    {
+      "yards": 344,
+      "week": 9,
+      "touchdowns": 4,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 25,
+      "attempts": 34
+    },
+    {
+      "yards": 267,
+      "week": 10,
+      "touchdowns": 1,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 18,
+      "attempts": 33
+    },
+    {
+      "yards": 269,
+      "week": 12,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 26,
+      "attempts": 34
+    },
+    {
+      "yards": 297,
+      "week": 13,
+      "touchdowns": 1,
+      "player_id": 4317,
+      "interceptions": 1,
+      "completions": 22,
+      "attempts": 34
+    },
+    {
+      "yards": 237,
+      "week": 14,
+      "touchdowns": 3,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 18,
+      "attempts": 28
+    },
+    {
+      "yards": 286,
+      "week": 15,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 17,
+      "attempts": 23
+    },
+    {
+      "yards": 277,
+      "week": 16,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 27,
+      "attempts": 33
+    },
+    {
+      "yards": 331,
+      "week": 17,
+      "touchdowns": 4,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 27,
+      "attempts": 36
+    },
+    {
+      "yards": 338,
+      "week": 19,
+      "touchdowns": 3,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 26,
+      "attempts": 37
+    },
+    {
+      "yards": 392,
+      "week": 20,
+      "touchdowns": 4,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 27,
+      "attempts": 38
+    },
+    {
+      "yards": 284,
+      "week": 21,
+      "touchdowns": 2,
+      "player_id": 4317,
+      "interceptions": 0,
+      "completions": 17,
+      "attempts": 23
+    }
+  ],
+  "players": [
+    {
+      "player_id": 4317,
+      "last_name": "Ryan",
+      "first_name": "Matt",
+      "drafted_by": "Atlanta Falcons",
+      "draft_type": "AD",
+      "draft_season": 2008,
+      "draft_round": 1,
+      "draft_pick": 3,
+      "date_of_birth": "1985-05-17"
+    },
+    {
+      "player_id": 698,
+      "last_name": "Brady",
+      "first_name": "Tom",
+      "drafted_by": "New England Patriots",
+      "draft_type": "AD",
+      "draft_season": 2000,
+      "draft_round": 6,
+      "draft_pick": 199,
+      "date_of_birth": "1977-08-03"
+    }
+  ]
+}
