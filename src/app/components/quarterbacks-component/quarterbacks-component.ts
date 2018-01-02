@@ -3,7 +3,6 @@ import { Http } from '@angular/http';
 import { StatsService } from '../../services/stats-service';
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import 'rxjs';
-import { extend as _extend, omit as _omit, find as _find, map as _map, forEach as _forEach, reduce as _reduce, merge as _merge, assign as _assign } from 'lodash';
 
 @Component({
   selector: 'app-quarterbacks',

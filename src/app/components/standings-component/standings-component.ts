@@ -32,7 +32,6 @@ export class StandingsComponent implements OnInit {
   }
 
   initChart() {
-    // http://bl.ocks.org/wdickerson/64535aff478e8a9fd9d9facccfef8929
     const x = d3.scaleLinear().range([0, this.width]);
     const y = d3.scaleLinear().range([this.height, 0]);
 
