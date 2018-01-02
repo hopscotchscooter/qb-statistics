@@ -10,10 +10,11 @@ import * as d3 from 'd3';
 export class StandingsComponent implements OnInit {
   public margin = {top: 20, right: 80, bottom: 30, left: 50};
   public width = 800 - this.margin.left - this.margin.right;
-  public height = 400 - this.margin.top - this.margin.bottom;
+  public height = 300 - this.margin.top - this.margin.bottom;
+  public compiledStats;
 
   constructor(private statsService: StatsService){
-
+    this.statsService.compiledStats.subscribe(value => this.compiledStats = value)
   }
 
   ngOnInit() {
@@ -32,9 +33,10 @@ export class StandingsComponent implements OnInit {
       .attr('transform', 'translate(' + this.margin.left + ',' + this.margin.top + ')');
 
     x.domain([1, 16]);
-    y.domain([0, 155]);
+    y.domain([0, 160]);
 
     svg.append('g').attr('transform', 'translate(0,' + this.height + ')').call(d3.axisBottom(x));
     svg.append('g').call(d3.axisLeft(y));
+    console.log(this.compiledStats);
   }
 }

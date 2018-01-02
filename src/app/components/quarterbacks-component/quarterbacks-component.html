@@ -8,7 +8,7 @@
     <p-column field="qbr" header="Rating">
       <ng-template let-col let-row="rowData" pTemplate="body">
         <!--{{calculatePasserRating(col.completions, col.attempts)}} %-->
-        {{calculatePasserRating(row['completions'], row['attempts'], row['yards'], row['touchdowns'], row['interceptions']) | number : '.2-2'}}
+        {{calculatePasserRating(row['completions'], row['attempts'], row['yards'], row['touchdowns'], row['interceptions'], row['last_name'], row['week']) | number : '.2-2'}}
       </ng-template>
     </p-column>
     <p-column field="yards" header="Total Passing Yards"></p-column>
