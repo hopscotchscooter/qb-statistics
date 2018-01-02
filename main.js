@@ -7,8 +7,6 @@ app.on('ready', () => {
 
   win.loadURL('http://localhost:4200');
 
-  win.webContents.openDevTools();
-
   win.on('closed', () => {
     win = null;
   });
