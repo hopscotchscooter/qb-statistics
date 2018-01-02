@@ -13,6 +13,7 @@ import { extend as _extend, omit as _omit, find as _find, map as _map, forEach a
 export class QuarterbacksComponent implements OnInit {
   public players: any;
   public stats: any;
+  public ratings = [];
 
   constructor(private http: Http,
               private statsService: StatsService) {
@@ -27,7 +28,6 @@ export class QuarterbacksComponent implements OnInit {
             let findPlayer = player_id => this.players.find(player => player.player_id === player_id);
             this.stats.forEach(player => Object.assign(player, findPlayer(player.player_id)));
             this.statsService.compiledStats.next(this.stats);
-            console.log(this.stats);
       });
 }
 
